@@ -79,9 +79,8 @@ export default class WorkRender {
             </div>`
         } else {
             content = `
-                <div id="work-item-gray-button-${item.id}" class="work-item-gray-button center" style="width: 100%; background: #a7adb8; cursor: unset;">
-                    Work in progress
-                </div>
+                
+                 ${item.liveview ? `<div id="work-item-orange-button-${item.id}" class="work-item-orange-button small-button center orange-hover">Live View</div>` : ''}
             `
         }
 

@@ -1,5 +1,5 @@
 # Portfolio 2022
-[Live](https://david-hckh.com/)
+[Live](https://minato-scott.netlify.app/)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
