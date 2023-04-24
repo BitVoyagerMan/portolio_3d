@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import Experience from '../../Experience'
 
-export default class David {
+export default class Scott {
     constructor() {
         this.experience = new Experience()
         this.resources = this.experience.resources
@@ -28,7 +28,7 @@ export default class David {
     }
 
     setSprite() {
-        this.texture = this.resources.items.davidImage
+        this.texture = this.resources.items.ScottImage
 
         this.material = new THREE.SpriteMaterial({ map: this.texture, depthTest: false, fog: false, opacity: 0 })
 

@@ -16,7 +16,7 @@ export default class ContactAnimation {
         this.experience = new Experience()
         this.character = this.experience.world.character
         this.contactScene = this.experience.world.contact.scene
-        this.david = this.experience.world.contact.david
+        this.Scott = this.experience.world.contact.Scott
         this.exclamationMark = this.experience.world.contact.exclamationMark
         this.sizes = this.experience.sizes
         this.sounds = this.experience.sounds
@@ -72,8 +72,8 @@ export default class ContactAnimation {
             this.transtionDelay = gsap.delayedCall(.2, () => {
                 this.startedTransition = true
 
-                //fade out david
-                this.timeline.to(this.david.material, { opacity: 1, duration: this.parameters.transitionDuration, ease: Power3.easeIn }, 0)
+                //fade out Scott
+                this.timeline.to(this.Scott.material, { opacity: 1, duration: this.parameters.transitionDuration, ease: Power3.easeIn }, 0)
 
                 //prepare head
                 this.character.body.materials.bakedMaterial.transparent = true
@@ -111,9 +111,9 @@ export default class ContactAnimation {
             if (this.timeline) this.timeline.kill()
             if (this.transtionDelay) this.transtionDelay.kill()
 
-            //Show David if not visible yet
-            if (this.david.material.opacity != 1 && this.played)
-                gsap.to(this.david.material, { opacity: 1, duration: this.parameters.transitionDuration, ease: Power3.easeIn }, 0)
+            //Show Scott if not visible yet
+            if (this.Scott.material.opacity != 1 && this.played)
+                gsap.to(this.Scott.material, { opacity: 1, duration: this.parameters.transitionDuration, ease: Power3.easeIn }, 0)
         }
     }
 

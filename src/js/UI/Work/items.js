@@ -5,7 +5,7 @@ export default [
     description: "Group managment tool to optimize workflows",
     image: "images/projects/join.jpg",
     tags: ["javascript", "backend", "html", "css"],
-    liveview: "https://join.david-hckh.com/",
+    liveview: "https://join.Scott-hckh.com/",
     alt: "Group management tool to optimize workflows portfolio project",
   },
   {
@@ -32,7 +32,7 @@ export default [
     description: `My portfolio website, you're probably looking at right now.`,
     image: "images/projects/portfolio.jpg",
     tags: ["webgl", "javascript", "html", "css"],
-    alt: "david heckhoff portfolio project 2022 threejs blender 3d design",
+    alt: "Scott Harrison portfolio project 2022 threejs blender 3d design",
     bannerIcons: [
       { src: "images/cssda-icon.png", alt: "cssda icon site of the day" },
     ],
